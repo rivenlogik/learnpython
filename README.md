@@ -1,2 +1,2 @@
 # learnpython
-Learning python and repositories
+Learning python
