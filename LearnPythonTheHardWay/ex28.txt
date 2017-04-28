@@ -1,0 +1,132 @@
+True and True
+  True
+
+False and True
+  False
+
+1 == 1 and 2 == 1
+  False
+
+"test" == "test"
+  True
+
+1 == 1 or 2 != 1
+  True
+
+True and 1 == 1
+  True
+
+False and 0 != 0
+  False
+
+True or 1 == 1
+  True
+
+"test" == "testing"
+  False
+
+1 != 0 and 2 == 1
+  False
+
+"test" != "testing"
+  True
+
+"test" == 1
+  False
+
+not (True and False)
+  True
+
+not (1 == 1 and 0 != 1)
+  False
+
+not (10 == 1 or 1000 == 1000)
+  False
+
+not (1 != 10 or 3 == 4)
+  False
+
+not ("testing" == "testing" and "Zed" == "Cool Guy")
+  True
+
+1 == 1 and (not ("testing" == 1 or 1 == 0))
+  True
+
+"chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+  False
+
+3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+  False
+
+STUDY DRILL 2
+Comparison operators
+---------------------
+== Equals
+!= Not equals
+< less than
+> greater than
+<= less than or equal to
+>= greater than or equal to
+
+MATH Operators
+-----------------------
++ addition
+- subtraction
+* multiplication
+/ division
+** exponent
+// floor division (value without remainder)
+% Modulus (remainder in division)
+
+ASSIGNMENT Operators
+-----------------------
+= assign value
++= add right to left and assign result to left operand
+-= subtract right from left and assign to left operand
+*= multiply ''
+/= divide ''
+%= modulus ''
+**= exponent ''
+//= floor division ''
+
+BITWISE Operators (Binary)
+a = 0011 1100
+b = 0000 1101
+------------------------
+& AND -- a & b = 0000 1100
+| OR -- a | b = 0011 1101
+^ XOR -- a ^ b = 0011 0001
+~ Ones complement (NOT) -- ~a = 1100 0011
+<< Binary left shift -- a << = 1111 0000
+>> Binary right shift -- a >> = 0000 1111
+
+Logical operators AND, OR, NOT for normal numbers return true when result is non-zero.
+
+Membership Operators
+------------------------
+in = evaluates to true if it finds a variable in the specified sequence, otherwise false
+not in = evaluates to true if it does not find a variable in a specified sequence, otherwise false.
+
+Identity Operators
+------------------------
+is = evaluates to true if the variables on either side of the operator point to the same object, otherwise false
+is not = evaluates to false if the variables on either side of the operator point to the same object, otherwise true.
+The above use id(x) - id() returns the memory address of a variable so it is not necessarily the value being compared
+
+
+Precedence
+------------------------
+Operator	Description
+**      Exponentiation (raise to the power)
+~ + -     Complement, unary plus and minus (method names for the last two are +@ and -@)
+* / % //      Multiply, divide, modulo and floor division
++ -	        Addition and subtraction
+>> <<	      Right and left bitwise shift
+&	        Bitwise 'AND'
+^ |	      Bitwise exclusive `OR' and regular `OR'
+<= < > >=	  Comparison operators
+<> == !=	 Equality operators
+= %= /= //= -= += *= **=	   Assignment operators
+is is not	    Identity operators
+in not in	  Membership operators
+not or and	Logical operators

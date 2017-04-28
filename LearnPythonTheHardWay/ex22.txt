@@ -1,0 +1,41 @@
+Python Words & Symbols
+
+print — for printing text to the screen
+“ — for strings
+‘ — for strings
+# — for comments
+, - separates strings, variables, new lines
++ — addition or string concatenation
+- subtraction
+* —  multiply
+/ —  divide
+% — modulus (reminder after diving by % <number>)
+% - Also used to indicate variables in a print command for %s, %r, %d etc
+> — greater than returns boolean
+< — less than returns boolean
+<= — less than or equal returns boolean
+>= — greater than or equal returns boolean
+= — assign a variable
+4 - regular digit
+4.0 - floating point number
+%s - string substitution
+%d - digit substitution
+%r - literal substitution (programmer)
+""" - begin string until next """ same with '''
+\t - a tab in a string
+\n - a newline in a string
+\a - a bell sound in a print string
+\r - a carriage return (front of the line)
+\\ - a backslash (\ is an escape character)
+raw_input() = input from the CLI
+raw_input("question? ") - input from CLI with "question? " at prompt
+from sys import argv -- argv command line arguments to the script
+open(filename) - opens a file with path of 'filename'
+txtobject.read() - prints the file contents for txtobject
+txtobject.close() - closes the file
+txtobject.write('text') - writes 'text' to the file object txtobject
+open(filename,'w') - opens a file as writable (no read) (truncates)
+open(filename,'w+') - opens a file as readable and writeable (truncates)
+open(filename, 'a+') - opens a file as readable and appending (no truncate)
+from os.path import exists - imports exists check function for a file
+def function_name: - defines a function name - 4 SPACES (TAB) IN

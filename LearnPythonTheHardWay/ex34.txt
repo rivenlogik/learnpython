@@ -1,0 +1,17 @@
+Number terms
+-------------
+Ordinal = ordered number (1st, 2nd, 3rd, etc.)
+Cardinal = Cards at random, 0 (index number in a list)
+
+animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
+
+Questions
+-----------
+#1 - Python
+#2 - Peacock
+#3 - Bear
+#4 - Kangaroo
+#5 - Whale
+#6 - Peacock
+#7 - Platypus
+#8 - Whale
